@@ -26,3 +26,10 @@ print(marks)
 desc_sorted = sorted(marks, reverse=True)
 print(desc_sorted)
 print(marks)
+
+#   practical usage of builtin func
+
+#   to calculate average marks
+
+average = sum(marks) / len(marks)
+print(f'average: {average:.2f}')
