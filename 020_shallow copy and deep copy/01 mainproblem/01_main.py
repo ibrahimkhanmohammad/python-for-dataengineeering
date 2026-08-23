@@ -6,7 +6,7 @@ print(original)
 
 #   they both are same because '=' does not work with mutable objects, and it is called reference copy because it copies address
 
-#   for proof - as addresses same we can say that it just update no matter what we do because it is mutable object
+#   for proof - as addresses same we can say that it just update no matter what we do because it is mutable objects
 print(id(copy))
 print(id(original))
 
